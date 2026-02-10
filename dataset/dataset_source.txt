@@ -1,0 +1,9 @@
+Dataset Name: Online Retail Dataset
+
+Source: Kaggle
+
+Link: 
+https://www.kaggle.com/datasets/ulrikthygepedersen/online-retail-dataset
+
+Note:
+Dataset is not uploaded due to GitHub size and licensing policies.
