@@ -36,4 +36,75 @@ Retail businesses generate large volumes of transactional data every day. Howeve
 
 The motivation behind the project was to simulate a real-world data analyst workflow by cleaning retail transaction data, engineering meaningful revenue-based features, and generating business insights such as sales trends, top-performing products, and high-value customers using SQL.
 
-### 
+## PROJECT OBJECTIVES
+The main objectives of this project are:
+- **Database Creation & Data Import** in SQL Server
+- **Data Cleaning & Validation** of raw retail transactions
+- **Feature Engineering** for business metrices
+- **Exploratory Sales Analysis** using SQL queries
+- **Customer & Product Performance Insights**
+- Preparing outputs for visualization dashboards
+
+## DATASET INFORMATION
+- Source: Kaggle Online Retail Dataset
+- Records: ~500K+ Transactions
+- Domain: UK-based E-Commerce Retail
+Dataset contains:
+Column Name | Description
+InvoiceNo | Unique invoice identifier
+StockCode | Product code
+Description | Product name
+Quantity | Units purchased
+InvoiceDate | Purchase timestamp
+UnitPrice | Price per unit
+CustomerID | Customer identifier
+Country | Customer region
+
+## REQUIREMENTS
+To run this project, we need:
+- Microsoft SQL Server
+- SQL Server Management Studio (SSMS)
+- Retail Dataset CSV File
+- SQL Knowledge
+
+## PROJECT WORKFLOW
+The project follows a structured multi-stage pipeline similar to real analytics teams:
+### Phase 1: Database & Table Setup
+- Created SQL Server Database
+- Imported Kaggle dataset into SQL table
+- Verified schema and column consistency
+
+### Phase 2: Data Cleaning
+Key cleaning steps performed:
+- Handling missing product descriptions
+- Replacing missing Customer IDs
+- Removing invalid quantity and price records
+- Trimming text formatting issues
+
+File: (01_create_table.sql)
+
+
+### Phase 3: Feature Engineering
+To support deeper analysis, new business features were added:
+- TotalSales (Revenue per transaction)
+- SalesYear & SalesMonth
+- CustomerType (Guest vs Registered)
+- OrderSize Category
+- SalesCategory (High / Medium / Low Value)
+
+Example:
+ALTER TABLE online_retail
+ADD TotalSales DECIMAL(12,2);
+
+UPDATE online_retail
+SET TotalSales = Quantity * UnitPrice;
+
+### Phase 4: Business Analysis & Insights
+The final stage includes SQL queries that answer business questions like:
+- How much revenue was generated?
+- Which products contribute most to sales?
+- Who are the top customers?
+- What are the best performing countries?
+- How do sales change month to month?
+
+## BUSINESS ANALYSIS RESULTS
