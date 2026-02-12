@@ -81,8 +81,7 @@ Key cleaning steps performed:
 - Removing invalid quantity and price records
 - Trimming text formatting issues
 
-sql/01_create_table.sql
-
+sql_queries/01_create_table.sql
 
 ### Phase 3: Feature Engineering
 To support deeper analysis, new business features were added:
