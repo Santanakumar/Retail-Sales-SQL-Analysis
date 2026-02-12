@@ -80,7 +80,8 @@ Key cleaning steps performed:
 - Replacing missing Customer IDs
 - Removing invalid quantity and price records
 - Trimming text formatting issues
-![create table](01_create_table.sql)
+
+sql/01_create_table.sql
 
 
 ### Phase 3: Feature Engineering
