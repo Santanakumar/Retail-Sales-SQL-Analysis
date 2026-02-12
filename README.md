@@ -30,3 +30,10 @@ However, raw sales data often contains:
 - No direct revenue metrices
 
 To extract meaningful insights, analysis must first clean and structure the dataset before performing business analysis.
+
+### Motivation
+Retail businesses generate large volumes of transactional data every day. However, raw sales datasets are often incomplete, inconsistent, and not directly usable for analysis.
+
+The motivation behind the project was to simulate a real-world data analyst workflow by cleaning retail transaction data, engineering meaningful revenue-based features, and generating business insights such as sales trends, top-performing products, and high-value customers using SQL.
+
+### 
