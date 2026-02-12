@@ -17,6 +17,7 @@ The analysis produces actionable insights such as:
 - High-Value Customers
 - Country-Wise Sales Performance
 - Customer Segmentation Metrices
+
 The project reflects real industry workflows used in e-commerce and reatil analytics.
 
 ## INTRODUCTION
@@ -27,4 +28,5 @@ However, raw sales data often contains:
 - Invalid transactions
 - Inconsistent formatting
 - No direct revenue metrices
+
 To extract meaningful insights, analysis must first clean and structure the dataset before performing business analysis.
