@@ -74,32 +74,18 @@ The project follows a structured multi-stage pipeline similar to real analytics 
 - Imported Kaggle dataset into SQL table
 - Verified schema and column consistency
 
-### Phase 2: Data Cleaning
+- [01_create_table.sql](sql_queries/01_create_table.sql)
+
+### Phase 2: Data Cleaning & Feature Engineering
 Key cleaning steps performed:
 - Handling missing product descriptions
 - Replacing missing Customer IDs
 - Removing invalid quantity and price records
 - Trimming text formatting issues
 
-Script 01: Table Creation
-[01_create_table.sql](sql_queries/01_create_table.sql)
+- [02_data_cleaning_and_feature_engineering.sql](sql_queries/02_data_cleaning_and_feature_engineering.sql)
 
-### Phase 3: Feature Engineering
-To support deeper analysis, new business features were added:
-- TotalSales (Revenue per transaction)
-- SalesYear & SalesMonth
-- CustomerType (Guest vs Registered)
-- OrderSize Category
-- SalesCategory (High / Medium / Low Value)
-
-Example:
-ALTER TABLE online_retail
-ADD TotalSales DECIMAL(12,2);
-
-UPDATE online_retail
-SET TotalSales = Quantity * UnitPrice;
-
-### Phase 4: Business Analysis & Insights
+### Phase 3: Business Analysis & Insights
 The final stage includes SQL queries that answer business questions like:
 - How much revenue was generated?
 - Which products contribute most to sales?
