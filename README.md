@@ -98,4 +98,25 @@ The final stage includes SQL queries that answer business questions like:
 
 [03_
 
-## BUSINESS ANALYSIS RESULTS
+## RESULTS
+To ensure transparency and portfolio credibility, key outputs from each SQL script are documented below.
+
+### Script 01: Data Import Confirmation
+The dataset was successfully imported into SQL Server as dbo.online_retail
+
+### Script 02: Data Cleaning & Feature Engineering Results
+This stage involved handling missing values, removing invalid transactions, and creating new analytical features.
+
+**Missing Values Handled**
+
+
+**Text Formatting Cleaned, Invalid Quantity & Price Records Removed**
+
+
+**TotalSales Feature Created**
+
+
+**Customer Segmentation Feature**
+
+
+**Sales Category Classification**
