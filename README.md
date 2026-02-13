@@ -74,7 +74,7 @@ The project follows a structured multi-stage pipeline similar to real analytics 
 - Imported Kaggle dataset into SQL table
 - Verified schema and column consistency
 
-[01_create_table.sql](sql_queries/01_create_table.sql)
+[01_create_table](sql_queries/01_create_table.sql)
 
 ### Phase 2: Data Cleaning & Feature Engineering
 This script includes:
@@ -86,7 +86,7 @@ This script includes:
   - OrderSize
   - SalesCategory
 
-[02_data_cleaning_and_feature_engineering.sql](sql_queries/02_data_cleaning_and_feature_engineering.sql)
+[02_data_cleaning_and_feature_engineering](sql_queries/02_data_cleaning_and_feature_engineering.sql)
 
 ### Phase 3: Business Analysis & Insights
 The final stage includes SQL queries that answer business questions like:
@@ -96,7 +96,7 @@ The final stage includes SQL queries that answer business questions like:
 - What are the best performing countries?
 - How do sales change month to month?
 
-[03_
+[03_retail_analysis_queries](sql_queries/03_retail_analysis_queries.sql)
 
 ## RESULTS
 To ensure transparency and portfolio credibility, key outputs from each SQL script are documented below.
