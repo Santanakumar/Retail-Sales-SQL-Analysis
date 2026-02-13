@@ -104,37 +104,38 @@ To ensure transparency and portfolio credibility, key outputs from each SQL scri
 ### Script 01: Data Import Confirmation
 The dataset was successfully imported into SQL Server as dbo.online_retail
 ![table_import_successfully](images/table_import_successfully.png)
-
+![database_table_schema](images/database_table_schema.png)
 
 ### Script 02: Data Cleaning & Feature Engineering Results
 This stage involved handling missing values, removing invalid transactions, and creating new analytical features.
 
 **Missing Values Handled**
-
+![missing_values_summary](images/missing_values_summary.png)
+![missing_values_handled](images/missing_values_handled.png)
 
 **Text Formatting Cleaned, Invalid Quantity & Price Records Removed**
-
+![cleaned_text_data_and_removed_invalid_records](images/cleaned_text_data_and_removed_invalid_records.png)
 
 **TotalSales Feature Created**
-
+![totalsales_feature_created](images/totalsales_feature_created.png)
 
 **Customer Segmentation Feature**
-
+![customer_segmentation_feature](images/customer_segmentation_feature.png)
 
 **Sales Category Classification**
-
+![sales_category_classification](images/sales_category_classification.png)
 
 ### Script 03: Business Analysis Insights
 The final script generated business KPIs and analytical insights for decision-making.
 
 **Monthly Revenue Trend**
-
+![monthly_revenue_trend](images/monthly_revenue_trend.png)
 
 **Top Products by Revenue**
-
+![top_products_by_revenue](images/top_products_by_revenue.png)
 
 **Top Customers by Spending**
-
+![top_customers_by_spending](images/top_customers_by_spending)
 
 ## KEY SKILLS DEMONSTRATED
 This project showcases:
