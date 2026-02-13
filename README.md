@@ -120,3 +120,40 @@ This stage involved handling missing values, removing invalid transactions, and 
 
 
 **Sales Category Classification**
+
+
+### Script 03: Business Analysis Insights
+The final script generated business KPIs and analytical insights for decision-making.
+
+**Monthly Revenue Trend**
+
+
+**Top Products by Revenue**
+
+
+**Top Customers by Spending**
+
+
+## KEY SKILLS DEMONSTRATED
+This project showcases:
+- SQL Data Cleaning
+- Feature Engineering
+- Business KPI Reporting
+- Customer & Product Analytics
+- Aggregations, Joins and Grouping
+- Retail Domain Understanding
+- Portfolio Documentation
+
+## CONCLUSION
+The project demonstrates a complete end-to-end SQL-based retail analytics workflow, starting from raw transaction data to meaningful business insights.
+
+By performing data cleaning, feature engineering, and structured exploratory analysis, the dataset was transformed into an analysis-ready format suitable for reporting and decision-making.
+
+The project highlights key analytical capabilities such as:
+
+- Database and table design in SQL Server
+- Real-world data preprocessing and quality handling
+- Feature creation for revenue and customer segmentation
+- Business-driven querying for sales and customer insights
+
+Overall, this analysis provides a strong foundation for understanding retail performance patterns and supports data-driven business strategies.
