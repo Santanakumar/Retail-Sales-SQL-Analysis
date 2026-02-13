@@ -103,6 +103,8 @@ To ensure transparency and portfolio credibility, key outputs from each SQL scri
 
 ### Script 01: Data Import Confirmation
 The dataset was successfully imported into SQL Server as dbo.online_retail
+![table_import_successfully](images/table_import_successfully.png)
+
 
 ### Script 02: Data Cleaning & Feature Engineering Results
 This stage involved handling missing values, removing invalid transactions, and creating new analytical features.
